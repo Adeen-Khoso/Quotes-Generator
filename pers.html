@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motivational quotes</title>
+    <link rel="stylesheet" href="quotesgen.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body >
+    <!-- navigation bar -->
+    <nav class="navbar">
+      <i class="fa fa-home" style="font-size: 24px"></i>
+      <a href="quotes-genrator.html">HOME</a>
+      <a href="motivational.html">MOTIVATIONAL</a>
+      <a href="love.html">Love</a>
+      <a href="pers.html" style="border-bottom: 2px solid #fbb800; margin-bottom: 10px ; color: #f4c547;">PERSONALITIES</a>
+      <a href="create.html" class="create" style="margin-left: 620px; margin-right:2px;">CREATE</a>
+      <i class="fa fa-plus" style="font-size: 17px ; color: #f4c547;"></i>
+      
+      <input id="checkbox" type="checkbox" />
+      <label class="toggle" for="checkbox">
+        <div id="bar1" class="bars"></div>
+        <div id="bar2" class="bars"></div>
+        <div id="bar3" class="bars"></div>
+      </label>
+      <div class="dropdown">
+        <a href="quotes-genrator.html">Home</a>
+        <a href="love.html">love quotes</a>
+        <a href="motivational.html">Motivational</a>
+        <a href="#" class="contact">Contact-us</a>
+      </div>
+    </nav>
+
+    <div class="maincontainer">
+    <div class="main2">
+      <!-- heading -->
+      <header class="motivheader">Personalities Quotes</header>
+
+      <!-- main -->
+      <div class="motivationbox">
+         " Laziest people have best solutions -Albert Einstein "
+      </div>
+
+      <div class="motivationbox">
+        "The only way to do great work is to love what you do." - Steve Jobs
+      </div>
+      
+      <div class="motivationbox">
+        "In the midst of chaos, there is also opportunity." - Sun Tzu
+      </div>
+      
+      <div class="motivationbox">
+        "Success is not final, failure is not fatal: It is the courage to continue that counts." - Winston Churchill
+      </div>
+      
+      <div class="motivationbox">
+        "The greatest glory in living lies not in never falling, but in rising every time we fall." - Nelson Mandela
+      </div>
+      
+      <div class="motivationbox">
+        "The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
+      </div>
+      
+      <div class="motivationbox">
+        "The only limit to our realization of tomorrow will be our doubts of today." - Franklin D. Roosevelt
+      </div>
+      
+      <div class="motivationbox">
+        "Science knows no country, because knowledge belongs to humanity." - Louis Pasteur
+      </div>
+      
+      <div class="motivationbox">
+        "The best way to predict the future is to create it." - Peter Drucker
+      </div>
+      
+      <div class="motivationbox">
+        "Genius is one percent inspiration and ninety-nine percent perspiration." - Thomas Edison
+      </div>
+      
+      <div class="motivationbox">
+        "The only thing that interferes with my learning is my education." - Albert Einstein
+      </div>
+      
+      <div class="motivationbox">
+        "Don't watch the clock; do what it does. Keep going." - Sam Levenson
+      </div>
+      
+      <div class="motivationbox">
+        "The future rewards those who press on." - Barack Obama
+      </div>
+      
+      <div class="motivationbox">
+        "The harder I work, the luckier I get." - Gary Player
+      </div>
+      
+      <div class="motivationbox">
+        "You miss 100% of the shots you don't take." - Wayne Gretzky
+      </div>
+      
+      <div class="motivationbox">
+        "Innovation distinguishes between a leader and a follower." - Steve Jobs
+      </div>
+      
+      <div class="motivationbox">
+        "The only true wisdom is in knowing you know nothing." - Socrates
+      </div>
+      
+      <div class="motivationbox">
+        "The biggest risk is not taking any risk." - Mark Zuckerberg
+      </div>
+      
+      <div class="motivationbox">
+        "The only source of knowledge is experience." - Albert Einstein
+      </div>
+      
+      <div class="motivationbox">
+        "If you can dream it, you can do it." - Walt Disney
+      </div>
+      
+      <div class="motivationbox">
+        "Stay hungry, stay foolish." - Steve Jobs
+      </div>
+      
+    </div>
+  </div>
+
+        <!-- footer -->
+        <footer class="footer">
+          <i class="fa fa-address-book" style="font-size: 24px"></i>
+          <a href="" class="contact">Contact us </a>
+          <p class="lastp">Live every moment !</p>
+          <a href="https://www.instagram.com/" class="insta">
+            <i class="fa fa-instagram" style="font-size: 30px"></i>
+          </a>
+          <a href="https://www.twitter.com" class="">
+            <i class="fa fa-twitter" style="font-size: 30px "></i>
+          </a>
+          <a href="https://www.google.com">
+            <i class="fa fa-google" style="font-size: 30px "></i>
+          </a>
+        </footer>
+      </div>
+    <script>
+      const checkbox = document.getElementById("checkbox");
+      const dropdown = document.querySelector(".dropdown");
+
+      checkbox.addEventListener("change", function () {
+        if (this.checked) {
+          dropdown.style.display = "flex";
+        } else {
+          dropdown.style.display = "none";
+        }
+      });
+      const header = document.querySelector(".motivheader");
+
+      header.addEventListener("animationend", function() {
+      });
+      header.animate({
+        opacity: 1,
+      }, {
+        duration: 1000,
+        easing: "ease-in-out",
+      });
+    </script>
+  </body>
+</html>
